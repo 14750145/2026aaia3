@@ -16,3 +16,4 @@ int main()
 	///std::cout << b << "+" << ans << "=" << b+ans << std::endl; ///¥¿½T
 	///std :: cout << b << "+" << ans << "=" << b+ans << "\n"; ///¥¿½T
 	printf("%d+%d=%d\n", b, ans, ans+b); ///¥¿½T
+}

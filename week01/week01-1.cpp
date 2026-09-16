@@ -2,12 +2,12 @@
 #include <stdio.h>
 int main()
 {
-	int N;                              ///整數
+	int N;
 	scanf("%d", &N);
 	int b = N, ans=0;
 	while(N>0){
-		ans = ans*10+N%10;              ///答案*10+皮皮
-		N = N/10;                       ///N被剝皮
+		ans = ans*10+N%10;
+		N = N/10;
 	}
 	printf("%d+%d=%d\n", b, ans, b+ans);
 }
